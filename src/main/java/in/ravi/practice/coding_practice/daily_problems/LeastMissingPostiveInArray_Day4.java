@@ -86,7 +86,7 @@ public class LeastMissingPostiveInArray_Day4 {
 
 	}
 
-	public int getLeastMissingPositive(int input[]) {
+	/*public int getLeastMissingPositive(int input[]) {
 
 		
 		LeastMissingPostiveInArray_Day4 leastMissingPostiveInArray_Day4 = new LeastMissingPostiveInArray_Day4();
@@ -105,5 +105,5 @@ public class LeastMissingPostiveInArray_Day4 {
 		
 		return least_missing_positive;
 	}
-
+*/
 }

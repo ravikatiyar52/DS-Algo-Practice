@@ -23,14 +23,17 @@ import java.util.Scanner;
 public class Testing {
 
 	public static void main(String args[]) {
-		System.out.println("Enter Number Input");
+		/*System.out.println("Enter Number Input");
 		Scanner scanner = new Scanner(System.in);
 		int num = scanner.nextInt();
 		System.out.println("Enter String Input");
 		String str = scanner.next();
 		System.out.println(" num output " + num);
 		System.out.println(" str output " + str);
-		scanner.close();
+		scanner.close();*/
+		
+		int result = 4^8;
+		System.out.println(result);
 	}
 }
 

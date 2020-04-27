@@ -15,7 +15,7 @@ public class BinarySearch {
 		System.out.println("element found at index " + index_found);
 	}
 
-	public static int search(int a[], int low, int high, int search) {
+	/*public static int search(int a[], int low, int high, int search) {
 
 		int index = -1;
 
@@ -41,7 +41,7 @@ public class BinarySearch {
 			}
 		}
 		return index;
-	}
+	}*/
 
 	public static int recursive_binary_search(int a[], int low, int high, int key) {
 

@@ -18,7 +18,15 @@ package in.ravi.practice.coding_practice.daily_problems;
 /**
  * Let M(i) represent max sum of non adjacent indexes from 0 to i.
  * Base case M(0) = a[0] and M(-1) = 0.
- * Then M(i) = Max(a[i]+M(i-2),M(i-1))
+ * public static void main(String... doYourBest) {
+    	    Simpson simpson = new Simpson();
+    	    transformIntoHomer(simpson);
+    	    System.out.println(simpson.name);
+	}
+
+	static void transformIntoHomer(Simpson simpson) {
+    	    simpson.name = "Homer";
+	}Then M(i) = Max(a[i]+M(i-2),M(i-1))
  * M(n) is the solution we need (n is the last element in the array)
  */
 import java.lang.Math;
