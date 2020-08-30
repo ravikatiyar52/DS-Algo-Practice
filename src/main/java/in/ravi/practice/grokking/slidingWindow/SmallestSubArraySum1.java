@@ -14,7 +14,7 @@ Explanation: The smallest subarray with a sum greater than or equal to '7' is [8
  */
 package in.ravi.practice.grokking.slidingWindow;
 
-public class SmallestSubArraySum {
+public class SmallestSubArraySum1 {
 	
 	public static void main(String args[]) {
 		int [] arr= {2,1,5,2,3,2};

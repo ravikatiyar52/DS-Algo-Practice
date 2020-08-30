@@ -18,7 +18,7 @@ package in.ravi.practice.grokking.slidingWindow;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LongestSubStringDistinctChar {
+public class LongestSubStringDistinctChar2 {
 
 	public static void main(String args[]) {
 		String input = "abcac";
