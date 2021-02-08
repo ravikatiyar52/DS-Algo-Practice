@@ -24,7 +24,7 @@ package in.ravi.practice.grokking.slidingWindow;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestNonRepeatinSubString {
+public class LongestNonRepeatinSubString3 {
 	
 	public static void main(String args[]) {
 		String input = "acbdcefgh";

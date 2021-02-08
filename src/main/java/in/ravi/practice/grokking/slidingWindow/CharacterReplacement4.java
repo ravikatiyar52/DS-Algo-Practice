@@ -25,7 +25,7 @@ Explanation: Replace the 'b' or 'd' with 'c' to have the longest repeating subst
 *
 * 
 */
-public class CharacterReplacement {
+public class CharacterReplacement4 {
 
 	
 	/**
