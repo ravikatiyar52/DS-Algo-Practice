@@ -28,7 +28,7 @@ public class TripletSumToZero4 {
 	}
 	
 	public static List<List<Integer>> searchTriplets(int[] arr) {
-		List<List<Integer>> triplets = new ArrayList<>();
+		List<List<Integer>> triplets = new ArrayList<List<Integer>>();
 
 		Arrays.sort(arr);
 
@@ -36,7 +36,7 @@ public class TripletSumToZero4 {
 			if (i > 0 && arr[i - 1] == arr[i]) {
 				continue;
 			}
-			List<Integer> output = new ArrayList<>(8);
+			List<Integer> output = new ArrayList<Integer>(8);
 			output.add(arr[i]);
 			findPair(arr, -arr[i], i + 1, triplets);
 

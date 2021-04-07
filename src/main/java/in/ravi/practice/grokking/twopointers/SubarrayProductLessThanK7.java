@@ -29,7 +29,7 @@ public class SubarrayProductLessThanK7 {
 	}
 
 	public static List<List<Integer>> findSubarrays(int[] nums, int k) {
-		List<List<Integer>> subarrays = new ArrayList<>();
+		List<List<Integer>> subarrays = new ArrayList<List<Integer>>();
 
 		int left = 0;
 		int right = 0;
@@ -38,7 +38,7 @@ public class SubarrayProductLessThanK7 {
 		while (right < nums.length) {
 
 			if (nums[right] < k) {
-				List<Integer> subArray = new ArrayList<>(4);
+				List<Integer> subArray = new ArrayList<Integer>(4);
 				subArray.add(nums[right]);
 				subarrays.add(subArray);
 			}
@@ -46,7 +46,7 @@ public class SubarrayProductLessThanK7 {
 
 			if (right - left > 0) {
 				if (currentWindowProduct < k) {
-					List<Integer> subArray = new ArrayList<>(4);
+					List<Integer> subArray = new ArrayList<Integer>(4);
 					for (int i = left; i <= right; i++) {
 						subArray.add(nums[i]);
 					}
@@ -56,7 +56,7 @@ public class SubarrayProductLessThanK7 {
 						currentWindowProduct /= nums[left];
 						left++;
 						if (currentWindowProduct < k) {
-							List<Integer> subArray = new ArrayList<>(4);
+							List<Integer> subArray = new ArrayList<Integer>(4);
 							for (int i = left; i <= right; i++) {
 								subArray.add(nums[i]);
 							}
@@ -72,7 +72,7 @@ public class SubarrayProductLessThanK7 {
 			currentWindowProduct /= nums[left];
 			left++;
 
-			List<Integer> subArray = new ArrayList<>(4);
+			List<Integer> subArray = new ArrayList<Integer>(4);
 			for (int i = left; i < nums.length ; i++) {
 				subArray.add(nums[i]);
 			}
